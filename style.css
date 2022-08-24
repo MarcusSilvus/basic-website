@@ -4,6 +4,24 @@ body {
   
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: blue;
+}
+
+/*
+a:visited {
+  color: green;
+}
+*/
+
 h2 {
   /*
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -59,6 +77,44 @@ h2 {
   border-bottom: 5px yellow dashed;
 
   border-width: 5px;
+}
+
+.bff {
+  border: 1px black solid;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.myForm {
+  padding: 20px;
+}
+
+.myForm .formGroup {
+  padding-bottom: 10px;
+}
+
+.myForm label {
+  display: block;
+}
+
+.myForm input[type="text"], .myForm textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.myForm input[type="submit"] {
+  background-color: #333333;
+  color: #ccc;
+  padding: 10px 15px;
+  border: none;
+}
+
+.block {
+  float: left;
+  width: 33%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 footer {
