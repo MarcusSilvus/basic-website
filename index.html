@@ -6,58 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scrappy & Olive</title>
   <!-- THIS IS HOW YOU COMMENT -->
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Scrappy & Olive!</h2>
-    <main>
-      <div class="scrappy">
-        <h2>Meet Scrappy</h2>
-        <!-- add photo of scrappy here -->
-        <img src="scrapps.JPG" alt="Scrappy's Face" height="100" width="130">
-        <a href="https://www.theeohsees.com/" target="_blank">Puppy Time?</a>
-        <!-- href="#" is used as a placeholder -->
-        <p>Scrappy is my first dog. She died a few years ago but she's still my #1 bestie</p>
+  <div class="container">
+      <h2>Scrappy & Olive!</h2>
+      <main>
+        <div class="scrappy">
+          <h2>Meet Scrappy</h2>
+          <!-- add photo of scrappy here -->
+          <img src="scrapps.JPG" alt="Scrappy's Face" height="100" width="130">
+          <a href="https://www.theeohsees.com/" target="_blank">Puppy Time?</a>
+          <!-- href="#" is used as a placeholder -->
+          <p>Scrappy is my first dog. She died a few years ago but she's still my #1 bestie</p>
 
-        <p>Things <strong>Scrappy</strong> <em>Loves</em>:</p>
-        <ul>
-          <li>Alone time</li>
-          <li>Belly rubs</li>
+          <p>Things <strong>Scrappy</strong> <em>Loves</em>:</p>
+          <ul>
+            <li>Alone time</li>
+            <li>Belly rubs</li>
+            <li>Snacks</li>
+          </ul>
+        
+
+          <form action="#">
+            <!-- adding radio buttons -->
+            <label for="hugs"><input type="radio" name="hugs-kisses" id="hugs">Hugs</label>
+            <br>
+            <label for="kisses"><input type="radio" name="hugs-kisses" id="kisses">Kisses</label>
+            <br>
+            <!-- check boxes -->
+            <label for="barking"><input id="barking" type="checkbox" name="activities">Barking</label> 
+            <br> <!-- adding checked will have box checked by default -->
+            <label for="snacking"><input id="snacking" type="checkbox" name="activities" checked>Snacking</label> 
+            <br>
+            <label for="sleeping"><input id="sleeping" type="checkbox" name="activities">Sleeping</label> 
+            <br>
+            <!-- can add required to require user to enter data before submitting-->
+            <input type="text" placeholder="enter answer here" required>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <h2>Meet Olive</h2>
+        <img src="olive.jpg" alt="Olive's Face" height="130" width="130">
+        <p>Olive is my second dog. She is my #1 alive bestie</p>
+        <p>Things <strong>Olive</strong> <em>Loves</em>:</p>
+        <ol>
+          <li>Cuddles</li>
           <li>Snacks</li>
-        </ul>
-      
+          <li>Wrestling w/ her dad</li>
+        </ol>
 
-        <form action="#">
-          <!-- adding radio buttons -->
-          <label for="hugs"><input type="radio" name="hugs-kisses" id="hugs">Hugs</label>
-          <br>
-          <label for="kisses"><input type="radio" name="hugs-kisses" id="kisses">Kisses</label>
-          <br>
-          <!-- check boxes -->
-          <label for="barking"><input id="barking" type="checkbox" name="activities">Barking</label> 
-          <br> <!-- adding checked will have box checked by default -->
-          <label for="snacking"><input id="snacking" type="checkbox" name="activities" checked>Snacking</label> 
-          <br>
-          <label for="sleeping"><input id="sleeping" type="checkbox" name="activities">Sleeping</label> 
-          <br>
-          <!-- can add required to require user to enter data before submitting-->
-          <input type="text" placeholder="enter answer here" required>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
+        <h3> Olive likes to:</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae asperiores cumque quae 
+          nemo aliquid magni expedita eum eos, laboriosam placeat deleniti nostrum obcaecati incidunt, 
+          quis illum cupiditate eveniet dolor nulla?</p>
 
-      <h2>Meet Olive</h2>
-      <img src="olive.jpg" alt="Olive's Face" height="130" width="130">
-      <p>Olive is my second dog. She is my #1 alive bestie</p>
-      <p>Things <strong>Olive</strong> <em>Loves</em>:</p>
-      <ol>
-        <li>Cuddles</li>
-        <li>Snacks</li>
-        <li>Wrestling w/ her dad</li>
-      </ol>
-
-    </main>
-    <footer>
-      <p><small>No Copyright  <a href="https://www.copyright.gov/" target="_blank">-Trust-</a></small></p>
-    </footer>
+      </main>
+      <footer>
+        <p><small>No Copyright  <a href="https://www.copyright.gov/" target="_blank">-Trust-</a></small></p>
+      </footer>
+  </div>
 </body>
 </html> 
