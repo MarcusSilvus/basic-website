@@ -115,10 +115,11 @@ h2 {
 
 .block {
   float: left;
-  width: 33%;
+  width: 30%;
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
+  margin: 10px;
 }
 
 #mainBlock {
@@ -127,6 +128,7 @@ h2 {
   padding: 15px;
   border: 1px solid #000;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 
 #sidebar {
@@ -134,8 +136,9 @@ h2 {
   width: 30%;
   background-color: #333333;
   color: #fff;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 
 .footer {
@@ -150,3 +153,14 @@ footer {
   text-align: center;
 }
 
+@media all and (max-width: 768px) {
+  #mainBlock {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  #sidebar {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
